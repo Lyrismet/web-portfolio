@@ -1,4 +1,4 @@
-@import 'globals';
+@import '../src/app/_globals.scss';
 .marquee{
   background: #1F2130;
   width: 97.15vw;
@@ -7,6 +7,8 @@
   bottom: 0;
   right: 0;
   margin-bottom: 5.12vh;
+  display: flex;
+  align-items: center;
   p{
     font-weight: 450;
     font-size: 22px;
@@ -14,7 +16,19 @@
     text-transform: uppercase;
     color: white;
   }
-  p:nth-child(2){
-    border-color: $accent-color;
+  :nth-child(1){
+    position: relative;
+    z-index: 2;
+  }
+  :nth-child(2){
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    z-index: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px $accent-color;
+    text-stroke: 1px $accent-color;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
 }
