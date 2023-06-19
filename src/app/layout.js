@@ -1,7 +1,8 @@
 import './globals.scss'
 import { Fira_Code} from "next/font/google";
+import SkillGrid from "@/components/skillGrid/skillGrid";
 
-const inter = Fira_Code({ subsets: ['latin'] })
+const firaCode = Fira_Code({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,10 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <header className="header">header</header>
+      <body className={firaCode.className}>
+
+      {/*<SkillGrid/>*/}
+      <div className="bg-right-fixed"></div>
       {children}
-      <footer>footer</footer>
       </body>
     </html>
   )
