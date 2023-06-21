@@ -15,13 +15,14 @@ body {
   justify-content: space-between;
   align-items: center;*/
   height: 100vh;
-  overflow-x: scroll;
+  /*overflow-x: scroll;*/
   overflow-y: hidden;
   white-space: nowrap;
-  background: url('/images/background.png');
+  background-image: url('/images/background.png');
+  background-size: cover;
 }
 .bg-right-fixed {
-  background: url('/images/backgroundRight.png');
+  background-image: url('/images/backgroundRight.png');
   position: fixed;
   filter: drop-shadow(-7px 0px 10px rgba(0, 0, 0, 0.35));
   height: 100vh;
