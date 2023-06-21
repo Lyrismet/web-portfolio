@@ -1,8 +1,8 @@
 @import "globals";
 .main {
   display: flex;
-  width: 92.78vw;
-  height: 73.87vh;
+  align-items: center;
+  height: 100vh;
   padding: 13.07vh 0;
 }
 .mainLeftFixed{
@@ -13,3 +13,11 @@
   background-color: $main-color;
   height: 73.89vh;
 }
+.mainCanvas{
+  background-color: $main-color;
+  width: 300vw;
+  overflow-x: clip;
+  height: 71.73vh;
+  margin-left: calc(2.85vw + 33px);
+}
+
