@@ -1,5 +1,6 @@
+@import '../src/app/_globals.scss';
 .navbar{
-  background: #1F2130;
+  background: $main-color;
   width: 97.15vw;
   height: 7.95vh;
   position: fixed;
