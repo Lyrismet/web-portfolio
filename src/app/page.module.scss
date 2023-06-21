@@ -1,3 +1,15 @@
+@import "globals";
 .main {
-
+  display: flex;
+  width: 92.78vw;
+  height: 73.87vh;
+  padding: 13.07vh 0;
+}
+.mainLeftFixed{
+  position: absolute;
+  right: calc(97.15vw - 25px);
+  width: 25px;
+  z-index: 9;
+  background-color: $main-color;
+  height: 73.89vh;
 }
