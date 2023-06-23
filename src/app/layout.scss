@@ -10,14 +10,8 @@ a {
 }
 
 body {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;*/
-  height: 100vh;
-  /*overflow-x: scroll;*/
   overflow-y: hidden;
-  white-space: nowrap;
+  height: 100vh;
   background-image: url('/images/background.png');
   background-size: cover;
 }
