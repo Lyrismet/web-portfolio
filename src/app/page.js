@@ -2,7 +2,7 @@
 import styles from './page.module.scss'
 import {useEffect, useRef} from "react";
 import ScrollBooster from "scrollbooster";
-import AllProjects from "@/components/project/allProjects";
+import WelcomePage from "@/components/WelcomePage/WelcomePage";
 
 export default function Home() {
     const mainCanvasRef = useRef(null);
@@ -28,12 +28,13 @@ export default function Home() {
         <main className={styles.main}>
             <div className={styles.mainLeftFixed}></div>
             <div className={styles.mainCanvas} ref={mainCanvasRef}>
-                <div>
+                <div className={styles.wrapper}>
+                    <WelcomePage/>
 
                 </div>
 
             </div>
-            {/*<AllProjects/>*/}
+
         </main>
     )
 }
