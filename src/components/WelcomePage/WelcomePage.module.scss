@@ -1,0 +1,146 @@
+@import '../src/app/_globals.scss';
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100vw - 10.14vw);
+  height: 100%;
+}
+
+.welcomeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30.26vh;
+  width: 51.81vw;
+}
+
+.welcome {
+  position: relative;
+  height: 30.26vh;
+  width: 52.14vw;
+}
+
+.rectangleBack {
+  border: 2px solid $accent-color;
+  border-radius: 10px;
+  height: 28.30vh;
+  width: 50.49vw;
+  left: 0;
+  top: 0;
+}
+
+.rectangleMain {
+  background: linear-gradient(
+                  180deg,
+                  rgba(108.99, 121.66, 235.66, 0.4) 0%,
+                  rgba(221.99, 118.43, 238.85, 0.4) 100%
+  );
+  border-radius: 10px;
+  height: 28.30vh;
+  width: 50.49vw;
+  left: 0.76vw;
+  top: 0.76vw;
+}
+
+.rectangleFront {
+  border: 2px solid #d0d4f4;
+  border-radius: 10px;
+  height: 28.30vh;
+  width: 50.49vw;
+  left: 1.24vw;
+  top: 1.02vw;
+}
+
+.textBack {
+  -webkit-text-stroke: 2px $accent-color;
+  color: transparent;
+  font-size: 4.3125rem;
+  font-weight: 700;
+  text-align: center;
+  left: 50%;
+  top: 8.78vh;
+  transform: translateX(-50%);
+
+  @media (max-width: 1200px) {
+    font-size: 3.5rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 2.5rem;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 2rem;
+  }
+}
+
+.textFront {
+  color: white;
+  font-size: 4.3rem;
+  font-weight: 700;
+  text-align: center;
+  left: 50%;
+  top: 9.16vh;
+  transform: translateX(-50%);
+
+  @media (max-width: 1200px) {
+    font-size: 3.5rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 360px) {
+    font-size: 2rem;
+  }
+}
+
+.textSub {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  left: 70%;
+  top: 18.62vh;
+  transform: translateX(-50%);
+
+  @media (max-width: 1200px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 1rem;
+  }
+}
+
+/* positioning rules */
+.welcome {
+  position: relative;
+}
+.rectangleBack,
+.rectangleMain,
+.rectangleFront,
+.textBack,
+.textFront,
+.textSub {
+  position: absolute;
+}
