@@ -30,7 +30,6 @@ export default function Home() {
             <div className={styles.mainCanvas} ref={mainCanvasRef}>
                 <div className={styles.wrapper}>
                     <WelcomePage/>
-
                 </div>
 
             </div>

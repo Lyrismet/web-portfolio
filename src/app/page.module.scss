@@ -17,6 +17,8 @@
 .mainCanvas{
   display: flex;
   background-color: $main-color;
+  background-image: url("/images/dotsBackgroundFull.png");
+  background-size: cover;
   width: 300vw;
   overflow-x: auto;
   white-space: nowrap;
