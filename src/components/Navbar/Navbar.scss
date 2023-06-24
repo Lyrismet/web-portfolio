@@ -1,5 +1,6 @@
 @import '../src/app/_globals.scss';
 .navbar{
+    display: flex;
   background: $main-color;
   width: 97.15vw;
   height: 7.95vh;
@@ -7,4 +8,26 @@
   top: 0;
   right: 0;
   margin-top: 5.12vh;
+  padding: 0 80px;
+  nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  ul, ol{
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  ol{
+     a{
+      display: flex;
+      align-items: center;
+    }
+  }
+  li{
+    margin-right: 28px;
+    list-style-type: none;
+    cursor: pointer;
+  }
 }
