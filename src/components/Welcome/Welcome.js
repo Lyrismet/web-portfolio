@@ -1,7 +1,7 @@
 'use client'
-import styles from './WelcomePage.module.scss'
+import styles from './Welcome.module.scss'
 
-export default function WelcomePage() {
+export default function Welcome() {
     return (
         <div className={styles.box}>
             <div className={styles.welcomeWrapper}>
