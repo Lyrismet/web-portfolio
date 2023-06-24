@@ -1,4 +1,4 @@
-import SkillBadge from "@/components/skillBadge/skillBadge";
+import SkillBadge from "@/components/SkillBadge/skillBadge";
 import { SiNextdotjs, SiReact, SiTypescript, SiJavascript } from 'react-icons/si';
 
 const SkillGrid = () => {
