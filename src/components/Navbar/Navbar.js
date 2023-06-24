@@ -10,9 +10,9 @@ const Navbar = () => {
         <div className="navbar">
             <nav>
                 <ul>
-                    <li onClick={() => {scrollToBlock('home')}}>Home</li>
-                    <li onClick={() => {scrollToBlock('works')}}>Works</li>
-                    <li onClick={() => {scrollToBlock('contacts')}}>Contacts</li>
+                    <li onClick={() => {scrollToBlock('about')}}>Start</li>
+                    <li onClick={() => {scrollToBlock('works')}}>About</li>
+                    <li onClick={() => {scrollToBlock('contacts')}}>Works</li>
                 </ul>
                 <ol>
                     <li>
