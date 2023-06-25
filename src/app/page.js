@@ -3,6 +3,7 @@ import styles from './page.module.scss'
 import {useEffect, useRef} from "react";
 import ScrollBooster from "scrollbooster";
 import Welcome from "@/components/Welcome/Welcome";
+import About from "@/components/About/About";
 
 export default function Home() {
     const mainCanvasRef = useRef(null);
@@ -30,6 +31,7 @@ export default function Home() {
             <div className={styles.mainCanvas} ref={mainCanvasRef}>
                 <div className={styles.wrapper}>
                     <Welcome/>
+                    <About/>
                 </div>
 
             </div>
