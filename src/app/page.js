@@ -16,7 +16,8 @@ export default function Home() {
                 viewport,
                 content,
                 scrollMode: 'native',
-                direction: 'horizontal'
+                direction: 'horizontal',
+                pointerEvents: true
             });
 
             return () => {

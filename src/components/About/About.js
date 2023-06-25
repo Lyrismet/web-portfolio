@@ -15,7 +15,8 @@ export default function About() {
                     think through the functionality and design of an application.
                     I <span>value product development</span> in a team
                     of experienced developers. In my spare time I like to study psychology, which allows me to have more
-                    <span>harmonious</span> relationships with my colleagues and increase my <span>productivity</span>.
+                    <span>harmonious</span> relationships with my colleagues and increase my <span>productivity</span>
+                    .
                 </p>
             </div>
             <div className={styles.aboutImage}></div>
