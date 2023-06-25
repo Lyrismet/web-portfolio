@@ -10,7 +10,7 @@ export default function Welcome() {
                     <div className={styles.rectangleMain}/>
                     <div className={styles.rectangleFront}/>
                     <h1 className={styles.textBack}>WEB-PORTFOLIO</h1>
-                    <div className={styles.textFront}>WEB-PORTFOLIO</div>
+                    <h1 className={styles.textFront}>WEB-PORTFOLIO</h1>
                     <div className={styles.textSub}>by Lyrismet🍀</div>
                 </div>
             </div>
