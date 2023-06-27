@@ -4,6 +4,7 @@
     "title": "Название проекта 1",
     "description": "Описание проекта 1",
     "link": "https://example.com/project1",
+    "story": "It was one of my first projects in which I got to know the sass preprocessor and also prescribed the logic for the investment calculator.",
     "badges": [
       {
         "text": "HTML",
@@ -20,6 +21,7 @@
     "title": "Название проекта 2",
     "description": "Описание проекта 2",
     "link": "https://example.com/project2",
+    "story": "",
     "badges": [
       {
         "text": "HTML",
@@ -36,6 +38,7 @@
     "title": "Название проекта 3",
     "description": "Описание проекта 3",
     "link": "https://example.com/project2",
+    "story": "",
     "badges": [
       {
         "text": "HTML",
