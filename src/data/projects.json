@@ -3,12 +3,48 @@
     "image": "/images/image1.png",
     "title": "Название проекта 1",
     "description": "Описание проекта 1",
-    "link": "https://example.com/project1"
+    "link": "https://example.com/project1",
+    "badges": [
+      {
+        "text": "HTML",
+        "color": "blue"
+      },
+      {
+        "text": "Scss",
+        "color": "yellow"
+      }
+    ]
   },
   {
-    "image": "",
+    "image": "/images/image1.png",
     "title": "Название проекта 2",
     "description": "Описание проекта 2",
-    "link": "https://example.com/project2"
+    "link": "https://example.com/project2",
+    "badges": [
+      {
+        "text": "HTML",
+        "color": "blue"
+      },
+      {
+        "text": "Scss",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "image": "/images/image1.png",
+    "title": "Название проекта 3",
+    "description": "Описание проекта 3",
+    "link": "https://example.com/project2",
+    "badges": [
+      {
+        "text": "HTML",
+        "color": "blue"
+      },
+      {
+        "text": "Scss",
+        "color": "yellow"
+      }
+    ]
   }
 ]
