@@ -4,6 +4,7 @@ import {useEffect, useRef} from "react";
 import ScrollBooster from "scrollbooster";
 import Welcome from "@/components/Welcome/Welcome";
 import About from "@/components/About/About";
+import AllProjects from "@/components/Projects/allProjects";
 
 export default function Home() {
     const mainCanvasRef = useRef(null);
@@ -33,6 +34,7 @@ export default function Home() {
                 <div className={styles.wrapper}>
                     <Welcome/>
                     <About/>
+                    <AllProjects/>
                 </div>
 
             </div>
