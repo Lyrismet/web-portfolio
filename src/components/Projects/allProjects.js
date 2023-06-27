@@ -1,12 +1,12 @@
 import React from 'react';
 import projectsData from "@/data/projects.json";
-import Project from "@/components/project/project";
+import Project from "@/components/Projects/Project";
+
 
 const AllProjects = () => {
     return (
-        <div>
-            <h1>Мои проекты</h1>
-            <div className="projects">
+        <div style={{display: "flex", alignItems: "center"}}>
+            <div style={{display: "flex"}} className="projects">
                 {projectsData.map((project, index) => (
                     <Project
                         key={index}
@@ -14,6 +14,8 @@ const AllProjects = () => {
                         title={project.title}
                         description={project.description}
                         link={project.link}
+                        story={project.story}
+                        badges={project.badges}
                     />
                 ))}
             </div>
