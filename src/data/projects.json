@@ -1,25 +1,96 @@
 [
   {
-    "image": "/images/image1.png",
-    "title": "Название проекта 1",
-    "description": "Описание проекта 1",
+    "image": "/images/image0.png",
+    "title": "Web portfolio",
+    "description": "My portfolio website",
     "link": "https://example.com/project1",
-    "story": "It was one of my first projects in which I got to know the sass preprocessor and also prescribed the logic for the investment calculator.",
+    "story": "",
     "badges": [
       {
-        "text": "HTML",
+        "text": "next.js",
+        "color": "gray"
+      },
+      {
+        "text": "react",
         "color": "blue"
       },
       {
-        "text": "Scss",
+        "text": "js",
         "color": "yellow"
+      },
+      {
+        "text": "scss",
+        "color": "pink"
+      },
+      {
+        "text": "api",
+        "color": "magenta"
       }
     ]
   },
   {
     "image": "/images/image1.png",
-    "title": "Название проекта 2",
-    "description": "Описание проекта 2",
+    "title": "Let's talk",
+    "description": "Social messenger",
+    "link": "https://example.com/project1",
+    "story": "",
+    "badges": [
+      {
+        "text": "react",
+        "color": "blue"
+      },
+      {
+        "text": "ts",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "image": "/images/image2.png",
+    "title": "Soft Spot",
+    "description": "Multi-tool web app",
+    "link": "https://example.com/project2",
+    "story": "",
+    "badges": [
+      {
+        "text": "react",
+        "color": "blue"
+      },
+      {
+        "text": "js",
+        "color": "yellow"
+      },
+      {
+        "text": "scss",
+        "color": "pink"
+      }
+    ]
+  },
+  {
+    "image": "/images/image3.png",
+    "title": "Burgers",
+    "description": "Fast-food delivery app",
+    "link": "https://example.com/project2",
+    "story": "",
+    "badges": [
+      {
+        "text": "angular",
+        "color": "blue"
+      },
+      {
+        "text": "ts",
+        "color": "yellow"
+      },
+      {
+        "text": "api",
+        "color": "yellow"
+      }
+    ]
+  },
+  {
+    "image": "/images/image4.png",
+    "title": "Piggywest",
+    "description": "Landing of investment calculator",
     "link": "https://example.com/project2",
     "story": "",
     "badges": [
@@ -28,15 +99,23 @@
         "color": "blue"
       },
       {
-        "text": "Scss",
+        "text": "js",
         "color": "yellow"
+      },
+      {
+        "text": "Scss",
+        "color": "pink"
+      },
+      {
+        "text": "bem",
+        "color": "pink"
       }
     ]
   },
   {
-    "image": "/images/image1.png",
-    "title": "Название проекта 3",
-    "description": "Описание проекта 3",
+    "image": "/images/image5.png",
+    "title": "Bliss Restaurant",
+    "description": "Multi-page website for restaurant",
     "link": "https://example.com/project2",
     "story": "",
     "badges": [
@@ -45,8 +124,12 @@
         "color": "blue"
       },
       {
-        "text": "Scss",
+        "text": "css",
         "color": "yellow"
+      },
+      {
+        "text": "code-review",
+        "color": "cian"
       }
     ]
   }
