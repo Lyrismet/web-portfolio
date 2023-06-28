@@ -5,21 +5,43 @@
   position: relative;
 }
 
-.frontCard, .backCard {
+.frontCard,
+.backCard {
   background-color: white;
   width: 442px;
   height: 473px;
   border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
 }
-.frontCard{
+
+.frontCard {
   z-index: 2;
   box-shadow: 4px 4px 4px 0 rgba(20, 7, 30, 0.23);
 }
+
+.hoveredFrontCard {
+  transform: translateX(5px) rotateZ(5deg);
+  background-color: #fb4fac;
+}
+
 .backCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   z-index: 1;
   position: absolute;
   top: 7px;
   left: 8px;
+  padding: 20px;
+  transition: transform 0.3s, z-index 0.6s;
+  animation: slideAnimation 0.5s ease-in-out;
+}
+.hoveredBackCard {
+  transform: translateX(17px) translateY(-8px) rotateZ(2deg);
+}
+.clickedBackCard {
+  z-index: 3;
+  transform: translateX(100%)
 }
 
 .holoBackground {
@@ -39,10 +61,11 @@
   font-weight: 450;
   margin-bottom: 2px;
 }
+
 .link {
   font-size: 1.125rem;
   margin-bottom: 7px;
-  span{
+  span {
     text-decoration: underline;
   }
 }
@@ -53,7 +76,8 @@
   padding: 0 15px;
   margin-top: 6px;
 }
-.wrapperDesc{
+
+.wrapperDesc {
   padding: 0 15px;
   display: flex;
   flex-direction: column;
@@ -70,24 +94,22 @@
   height: 38px;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  &:hover{
-    color: #4b4655;
-    box-shadow: 0 2px 3px 0 rgba(126, 95, 228, 0.75);
-    .backCard{
-      transition: 0.3s;
-      transform: translateX(5px) rotateZ(5deg);
-      background-color: #FB4FAC;
-    }
-  }
+}
+
+.buttonAttachments:hover {
+  color: #4b4655;
+  box-shadow: 0 2px 3px 0 rgba(126, 95, 228, 0.75);
 }
 
 .badges {
   display: flex;
   align-items: center;
 }
-.story{
+
+.story {
   font-size: 21px;
   font-weight: 450;
-  padding: 20px;
+
   white-space: pre-wrap;
 }
+
