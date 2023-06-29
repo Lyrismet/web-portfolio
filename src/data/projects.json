@@ -4,7 +4,7 @@
     "title": "Web portfolio",
     "description": "My portfolio website",
     "link": "https://github.com/Lyrismet/lyrismet.github.io",
-    "story": "",
+    "story": "This is my challenging yet enjoyable personal portfolio project, featuring a custom design. I plan to enhance it further with additional features in the future.",
     "badges": [
       {
         "text": "next",
@@ -33,7 +33,7 @@
     "title": "Let's talk",
     "description": "Social messenger",
     "link": "https://github.com/Lyrismet/lets-talk-messenger",
-    "story": "",
+    "story": "It's a small social network, with the ability to create and edit a profile and communicate online.",
     "badges": [
       {
         "text": "next",
@@ -58,7 +58,7 @@
     "title": "Soft Spot",
     "description": "Multi-tool web app",
     "link": "https://example.com/project2",
-    "story": "",
+    "story": "This is a web application of several important tools: calculator, weather, joke generator and task list.",
     "badges": [
       {
         "text": "react",
@@ -83,7 +83,7 @@
     "title": "Burgers",
     "description": "Fast-food delivery app",
     "link": "https://github.com/Lyrismet/burgers-angular",
-    "story": "",
+    "story": "This fast food delivery application loads item data through a REST API, interacts with the database, and registers orders by sending data to the server.",
     "badges": [
       {
         "text": "angular",
@@ -104,7 +104,7 @@
     "title": "Shoppers Hub",
     "description": "Admin dashboard",
     "link": "https://github.com/Lyrismet/admin-dashboard-multicomponents",
-    "story": "",
+    "story": "An admin panel with many tools, with the ability to change the theme, using the library syncfusion ej2.",
     "badges": [
       {
         "text": "react",
@@ -125,7 +125,7 @@
     "title": "Bliss Restaurant",
     "description": "Multi-page website",
     "link": "https://github.com/Lyrismet/layout-italian-rest",
-    "story": "",
+    "story": "My earliest project, on which I did a code-review and corrected it according to current trends.",
     "badges": [
       {
         "text": "HTML",
