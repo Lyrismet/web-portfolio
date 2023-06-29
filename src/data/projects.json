@@ -3,28 +3,28 @@
     "image": "/images/image0.png",
     "title": "Web portfolio",
     "description": "My portfolio website",
-    "link": "https://example.com/project1",
+    "link": "https://github.com/Lyrismet/lyrismet.github.io",
     "story": "",
     "badges": [
       {
-        "text": "next.js",
-        "color": "gray"
+        "text": "next",
+        "color": "#1a1b21"
       },
       {
         "text": "react",
-        "color": "blue"
+        "color": "#57D3F5"
       },
       {
         "text": "js",
-        "color": "yellow"
+        "color": "#efd81d"
       },
       {
         "text": "scss",
-        "color": "pink"
+        "color": "#da629d"
       },
       {
         "text": "api",
-        "color": "magenta"
+        "color": "#A4AAE4"
       }
     ]
   },
@@ -32,16 +32,24 @@
     "image": "/images/image1.png",
     "title": "Let's talk",
     "description": "Social messenger",
-    "link": "https://example.com/project1",
+    "link": "https://github.com/Lyrismet/lets-talk-messenger",
     "story": "",
     "badges": [
       {
+        "text": "next",
+        "color": "#1a1b21"
+      },
+      {
         "text": "react",
-        "color": "blue"
+        "color": "#57D3F5"
       },
       {
         "text": "ts",
-        "color": "blue"
+        "color": "#2f74c0"
+      },
+      {
+        "text": "firebase",
+        "color": "#FFCB2B"
       }
     ]
   },
@@ -54,15 +62,19 @@
     "badges": [
       {
         "text": "react",
-        "color": "blue"
+        "color": "#57D3F5"
       },
       {
         "text": "js",
-        "color": "yellow"
+        "color": "#efd81d"
       },
       {
         "text": "scss",
-        "color": "pink"
+        "color": "#da629d"
+      },
+      {
+        "text": "api",
+        "color": "#A4AAE4"
       }
     ]
   },
@@ -70,66 +82,62 @@
     "image": "/images/image3.png",
     "title": "Burgers",
     "description": "Fast-food delivery app",
-    "link": "https://example.com/project2",
+    "link": "https://github.com/Lyrismet/burgers-angular",
     "story": "",
     "badges": [
       {
         "text": "angular",
-        "color": "blue"
+        "color": "#d6002f"
       },
       {
         "text": "ts",
-        "color": "yellow"
+        "color": "#2f74c0"
       },
       {
         "text": "api",
-        "color": "yellow"
+        "color": "#A4AAE4"
       }
     ]
   },
   {
     "image": "/images/image4.png",
-    "title": "Piggywest",
-    "description": "Landing of investment calculator",
-    "link": "https://example.com/project2",
+    "title": "Shoppers Hub",
+    "description": "Admin dashboard",
+    "link": "https://github.com/Lyrismet/admin-dashboard-multicomponents",
     "story": "",
     "badges": [
       {
-        "text": "HTML",
-        "color": "blue"
+        "text": "react",
+        "color": "#57D3F5"
       },
       {
         "text": "js",
-        "color": "yellow"
+        "color": "#efd81d"
       },
       {
-        "text": "Scss",
-        "color": "pink"
-      },
-      {
-        "text": "bem",
-        "color": "pink"
+        "text": "tailwind",
+        "color": "#44a1ad"
       }
     ]
   },
   {
     "image": "/images/image5.png",
     "title": "Bliss Restaurant",
-    "description": "Multi-page website for restaurant",
-    "link": "https://example.com/project2",
+    "description": "Multi-page website",
+    "link": "https://github.com/Lyrismet/layout-italian-rest",
     "story": "",
     "badges": [
       {
         "text": "HTML",
-        "color": "blue"
+        "color": "#dd4b25"
       },
       {
         "text": "css",
-        "color": "yellow"
+        "color": "#254cdd"
       },
       {
         "text": "code-review",
-        "color": "cian"
+        "color": "#35b94a"
       }
     ]
   }
