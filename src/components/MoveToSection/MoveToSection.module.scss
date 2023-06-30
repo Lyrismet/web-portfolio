@@ -1,0 +1,48 @@
+.moveToSection {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+}
+
+.title {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  cursor: pointer;
+  transform: translateY(23px);
+  transition: transform .1s;
+  width: 110px;
+
+  $transition-time: .15s;
+
+  &Center {
+    background-color: #ffffff;
+    height: 3px;
+    border-radius: 2px;
+    transform: translateX(-89%) translateY(2px);
+  }
+
+  &Top,
+  &Bottom {
+    background-color: #ffffff;
+    height: 3px;
+    left: -5px;
+    position: absolute;
+    top: 50%;
+    width: 14%;
+    border-radius: 2px;
+  }
+  &Top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+  }
+  &Bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+  }
+}
