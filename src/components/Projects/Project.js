@@ -4,7 +4,6 @@ import Image from "next/image";
 import { FiPaperclip } from "react-icons/fi";
 import SkillBadge from "@/components/SkillBadge/skillBadge";
 import projectsData from "@/data/projects.json";
-import {RiArrowGoBackLine} from "react-icons/ri";
 
 const Project = ({ image, title, description, link, story, badges }) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -66,9 +65,6 @@ const Project = ({ image, title, description, link, story, badges }) => {
             <div
                 className={`${styles.backCard} ${isHovered ? styles.hoveredBackCard : ""} ${isClicked ? styles.clickedBackCard : ""}`}>
                 <p className={styles.story}>{story}</p>
-                <button className={styles.buttonAttachments} onClick={handleGoBack}>
-                    <RiArrowGoBackLine />
-                </button>
             </div>
         </div>
     );
