@@ -5,6 +5,7 @@ import ScrollBooster from "scrollbooster";
 import Welcome from "@/components/Welcome/Welcome";
 import About from "@/components/About/About";
 import AllProjects from "@/components/Projects/allProjects";
+import MoveToSection from "@/components/MoveToSection/MoveToSection";
 
 export default function Home() {
     const mainCanvasRef = useRef(null);
@@ -33,7 +34,9 @@ export default function Home() {
             <div className={styles.mainCanvas} ref={mainCanvasRef}>
                 <div className={styles.wrapper}>
                     <Welcome/>
+                    <MoveToSection text="About"/>
                     <About/>
+                    <MoveToSection text="Works"/>
                     <AllProjects/>
                 </div>
 
