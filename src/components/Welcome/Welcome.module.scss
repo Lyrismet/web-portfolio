@@ -18,12 +18,6 @@
   position: relative;
   height: 30.26vh;
   width: 52.14vw;
-  @media screen and (max-width: 1200px) {
-    scale: 0.7;
-  }
-  @media screen and (max-width: 900px) {
-    scale: 0.5;
-  }
 }
 
 .rectangleBack {
@@ -60,7 +54,7 @@
 .textBack {
   -webkit-text-stroke: 2px $accent-color;
   color: transparent;
-  font-size: 4.3125rem;
+  font-size: 4.8vw;
   font-weight: 700;
   text-align: center;
   left: 50%;
@@ -71,7 +65,7 @@
 
 .textFront {
   color: white;
-  font-size: 4.3rem;
+  font-size: 4.8vw;
   font-weight: 700;
   text-align: center;
   left: 50%;
@@ -82,7 +76,7 @@
 
 .textSub {
   color: white;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 400;
   text-align: center;
   left: 70%;
@@ -102,3 +96,45 @@
 .textSub {
   position: absolute;
 }
+
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    height: 47.26vh;
+    width: 57.14vw;
+  }
+  .textBack, .textFront {
+    font-size: 5.5vh;
+    width: 90px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    span{
+      display: none;
+    }
+  }
+  .textSub{
+    font-size: 3vw;
+    left: 50%;
+    top: 45vh;
+  }
+  .rectangleBack,
+  .rectangleMain,
+  .rectangleFront{
+    height: 42.63vh;
+    width: 50.13vw;
+  }
+  .rectangleBack{
+
+    left: 0;
+    top: 0;
+  }
+  .rectangleMain{
+    left: 1.76vw;
+    top: 1.76vw;
+  }
+  .rectangleFront{
+    left: 3.24vw;
+    top: 3.02vw;
+  }
+}
+
