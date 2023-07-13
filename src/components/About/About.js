@@ -10,7 +10,7 @@ export default function About() {
                 <p className={styles.text}>
                     who loves digging into code to find <span>optimal solutions</span>. My <span>experience in UI/UX
                     design</span> helps me better
-                    understand designers' decisions. I really enjoy <span>improving my skills</span> with pet projects
+                    understand designers decisions. I really enjoy <span>improving my skills</span> with pet projects
                     in which I
                     think through the functionality and design of an application.
                     I <span>value product development</span> in a team

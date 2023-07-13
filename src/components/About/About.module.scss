@@ -61,6 +61,28 @@
 }
 @media (max-width: 767px) {
   .about{
-    overflow-y: auto;
+    padding: 0;
+    width: 200vw;
+  }
+  .aboutInfo{
+    width: 70vw;
+  }
+  .aboutImage{
+    width: 130vw;
+    scale: 0.8;
+  }
+  .title{
+    font-size: 2.675rem;
+  }
+  .text{
+    font-size: 0.825rem;
+  }
+  .greetings{
+    font-size: 1rem;
+    margin-bottom: -10px;
+  }
+  .subtitleText{
+    font-size: 0.9rem;
+    margin-top: -6px;
   }
 }
