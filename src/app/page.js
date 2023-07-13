@@ -35,9 +35,9 @@ export default function Home() {
             <div className={styles.mainCanvas} ref={mainCanvasRef}>
                 <div className={styles.wrapper}>
                     <Welcome/>
-                    <MoveToSection text="About"/>
+                   {/* <MoveToSection text="About"/>*/}
                     <About/>
-                    <MoveToSection text="Works"/>
+                    {/*<MoveToSection text="Works"/>*/}
                     <AllProjects/>
                     <Contacts/>
                 </div>
