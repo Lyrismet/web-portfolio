@@ -4,7 +4,7 @@ import {TbClover} from 'react-icons/tb'
 
 export default function Welcome() {
     return (
-        <div className={styles.box}>
+        <div  id="start" className={styles.box}>
             <div className={styles.welcomeWrapper}>
                 <div className={styles.welcome}>
                     <div className={styles.rectangleBack}/>

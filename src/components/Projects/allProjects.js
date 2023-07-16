@@ -6,7 +6,7 @@ import Project from "@/components/Projects/Project";
 const AllProjects = () => {
     return (
         <div style={{display: "flex", alignItems: "center"}}>
-            <div style={{display: "flex"}} className="projects">
+            <div id="works" style={{display: "flex"}} className="projects">
                 {projectsData.map((project, index) => (
                     <Project
                         key={index}
