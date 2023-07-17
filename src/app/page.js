@@ -36,10 +36,10 @@ export default function Home() {
                     <Element name="welcome" className="element">
                         <Welcome />
                     </Element>
-                    <Element name="about" className="element">
+                    <Element style={{display: "flex"}} name="about" className="element">
                         <About />
                     </Element>
-                    <Element name="projects" className="element">
+                    <Element style={{display: "flex"}} name="projects" className="element">
                         <AllProjects />
                     </Element>
                     <Element style={{display: "flex"}} name="contacts" className="element">
