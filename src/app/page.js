@@ -1,7 +1,7 @@
 'use client'
 import styles from './page.module.scss'
 import { useEffect, useRef } from "react";
-import { Element, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 import Welcome from "@/components/Welcome/Welcome";
 import About from "@/components/About/About";
 import AllProjects from "@/components/Projects/allProjects";
