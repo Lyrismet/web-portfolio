@@ -31,9 +31,14 @@
     cursor: pointer;
   }
 }
-@media screen and (max-width: 768px) {
-  .navbar ol{
-    display: none;
+@media screen and (max-width: 500px) {
+  .navbar{
+    ol{
+      display: none;
+    }
+    nav{
+      justify-content: center;
+    }
 }
 
 }
