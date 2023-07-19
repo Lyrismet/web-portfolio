@@ -17,7 +17,7 @@ export default function RootLayout({children}) {
         <div className="bg-right-fixed"/>
         <Navbar/>
         {children}
-        <Marquee/>
+        {/*<Marquee/>*/}
         </body>
         </html>
     )
