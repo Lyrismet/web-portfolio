@@ -87,3 +87,24 @@
     margin-top: -6px;
   }
 }
+@media (max-height: 650px) {
+  .about{
+    padding: 0;
+    width: 70vw;
+  }
+  .aboutInfo{
+    width: 70vw;
+  }
+  .aboutImage{
+    width: 130vw;
+    height: 100vh;
+    scale: 0.8;
+  }
+  .title{
+    font-size: 2.675rem;
+  }
+  .text{
+    font-size: 0.825rem;
+  }
+
+}
