@@ -57,6 +57,7 @@
   display: flex;
   justify-content: center;
   padding: 19px;
+  border-radius: 10px;
 }
 
 .title {
@@ -119,4 +120,32 @@
   font-weight: 450;
   white-space: pre-wrap;
 }
+@media (max-width: 768px) {
+  .buttonAttachments{
+    display: none;
+  }
+  .frontCard{
+    width: 300px;
+    height: 400px;
+  }
+  .backCard{
+    display: none;
+  }
+  .badges{
+    flex-wrap: wrap;
+  }
+  .wrapperDesc{
+    height: 32%;
+  }
+  .title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: -8px;
+  }
 
+  .description {
+    font-size: 1.15rem;
+
+  }
+
+}

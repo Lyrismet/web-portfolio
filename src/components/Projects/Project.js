@@ -8,7 +8,7 @@ import projectsData from "@/data/projects.json";
 const Project = ({ image, title, description, link, story, badges }) => {
     const [isHovered, setIsHovered] = useState(false);
     const [isClicked, setIsClicked] = useState(false);
-
+    const isMobile = window.innerWidth <= 768;
     const handleHover = () => {
         setIsHovered(true);
     };
@@ -35,8 +35,8 @@ const Project = ({ image, title, description, link, story, badges }) => {
                         style={{ borderRadius: "10px" }}
                         src={image}
                         alt={title}
-                        width={400}
-                        height={280}
+                        width={isMobile ? 280 : 400}
+                        height={isMobile ? 196 : 280}
                     />
                 </div>
                 <div className={styles.wrapperName}>
