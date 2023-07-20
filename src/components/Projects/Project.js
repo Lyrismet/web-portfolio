@@ -1,5 +1,4 @@
-'use client'
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Project.module.scss";
 import Image from "next/image";
 import { FiPaperclip } from "react-icons/fi";
@@ -9,7 +8,16 @@ import projectsData from "@/data/projects.json";
 const Project = ({ image, title, description, link, story, badges }) => {
     const [isHovered, setIsHovered] = useState(false);
     const [isClicked, setIsClicked] = useState(false);
-    const isMobile = window.innerWidth <= 768;
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+        handleResize();
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
     const handleHover = () => {
         setIsHovered(true);
     };
