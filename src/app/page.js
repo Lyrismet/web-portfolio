@@ -37,9 +37,11 @@ export default function Home() {
                         <Welcome />
                     </Element>
                     <Element style={{display: "flex"}} name="about" className="element">
+                        <MoveToSection text="About"/>
                         <About />
                     </Element>
                     <Element style={{display: "flex"}} name="projects" className="element">
+                        <MoveToSection text="Works"/>
                         <AllProjects />
                     </Element>
                     <Element style={{display: "flex"}} name="contacts" className="element">

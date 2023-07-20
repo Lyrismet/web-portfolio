@@ -46,3 +46,8 @@
     transform-origin: top right;
   }
 }
+@media (max-width: 768px) {
+  .moveToSection {
+    width: 80vw;
+  }
+}
