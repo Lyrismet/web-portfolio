@@ -3,6 +3,9 @@
   flex-direction: column;
   margin-left: 10vw;
   position: relative;
+  @media (max-height: 650px) {
+    margin-left: 0;
+  }
 }
 
 .frontCard,
@@ -14,6 +17,9 @@
   transition: transform 0.3s, background-color 0.3s;
   @media screen and (max-width: 1200px) {
     scale: 0.9;
+  }
+  @media (max-height: 650px) {
+    scale: 0.7;
   }
 }
 
