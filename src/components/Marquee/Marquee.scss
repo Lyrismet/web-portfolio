@@ -4,9 +4,9 @@
   width: 97.15vw;
   height: 7.95vh;
   position: fixed;
-  bottom: 0;
+  top: 0;
   right: 0;
-  margin-bottom: 5.12vh;
+  margin-top: 86.96vh;
   display: flex;
   align-items: center;
   marquee{
@@ -37,6 +37,9 @@
     line-height: 29px;
     text-transform: uppercase;
     color: white;
+    @media (max-width: 768px){
+      font-size: 16px;
+    }
   }
 
 }
