@@ -9,7 +9,7 @@
   margin-top: 86.96vh;
   display: flex;
   align-items: center;
-  marquee{
+  marquee {
     margin: 0 9px;
     width: 32vw;
     .marquee__front-text{
@@ -42,4 +42,12 @@
     }
   }
 
+}
+@media (max-width: 768px){
+  .marquee{
+    margin-top: 83.96vh;
+  }
+  marquee{
+    display: none;
+  }
 }
