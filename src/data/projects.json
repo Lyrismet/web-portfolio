@@ -57,7 +57,7 @@
     "image": "/images/image2.png",
     "title": "Soft Spot",
     "description": "Multi-tool web app",
-    "link": "https://example.com/project2",
+    "link": "https://github.com/Lyrismet/soft-spot-multitool",
     "story": "This is a web application of several important tools: calculator, weather, joke generator and task list.",
     "badges": [
       {
