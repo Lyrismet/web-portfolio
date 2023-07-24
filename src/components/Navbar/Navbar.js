@@ -4,7 +4,7 @@ import './Navbar.scss';
 const Navbar = () => {
     const scrollToBlock = (blockId) => {
         const block = document.getElementById(blockId);
-        block.scrollIntoView({ behavior: 'smooth' });
+        block.scrollIntoView({ block: "nearest", inline: "start", behavior: 'smooth' });
     }
     return (
         <div className="navbar">
