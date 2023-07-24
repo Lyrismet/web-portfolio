@@ -17,8 +17,6 @@ const Marquee = () => {
             <div className="marquee-mobile">
                 <p className="marquee__front-text">react javascript next.js typescript json api html5 css3 scss git semantic
                 adaptive module.css git webpack prettier npm turbopack</p>
-                <p className="marquee__back-text">react javascript next.js typescript json api html5 css3 scss git semantic
-                adaptive module.css git webpack prettier npm turbopack</p>
                 </div>
         </div>
     );

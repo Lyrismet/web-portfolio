@@ -35,8 +35,10 @@
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    .marquee__back-text{
-      top: 9px;
+    .marquee__front-text{
+      color: white;
+      -webkit-text-stroke: 1px $accent-color;
+      -webkit-background-clip: text;
     }
     p {
     display: inline-block;
