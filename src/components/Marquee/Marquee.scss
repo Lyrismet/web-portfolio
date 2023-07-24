@@ -32,7 +32,7 @@
   }
   .marquee-mobile{
     display: none;
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     white-space: nowrap;
     .marquee__back-text{
@@ -40,7 +40,7 @@
     }
     p {
     display: inline-block;
-    animation: marqueeAnimation 10s linear infinite;
+    animation: marqueeAnimation 18s linear infinite;
   }
     @keyframes marqueeAnimation {
      from {
@@ -51,9 +51,6 @@
      }
    }
   }
-
-
-
   p{
     margin-left: 5px;
     font-weight: 450;
@@ -77,10 +74,9 @@
   marquee{
     display: none;
   }
-
 }
 @media not all and (min-resolution:.001dpcm) {
-  /* Safari-specific CSS */
+  /* Safari-specific */
   .safari-hide {
     display: none;
   }
