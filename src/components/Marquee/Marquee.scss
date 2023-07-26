@@ -77,14 +77,14 @@
     display: none;
   }
 }
-@media only screen and (user-agent: iPad) {
-  .your-element-class {
+@media only screen and (orientation: landscape) and (user-agent: iPad) {
+  .marquee__back-text {
     display: none;
   }
 }
-/*@media not all and (min-resolution:.001dpcm) {
-  !* Safari-specific *!
+@media not all and (min-resolution:.001dpcm) {
+  /*!* Safari-specific *!*/
   .safari-hide {
     display: none;
   }
-}*/
+}
