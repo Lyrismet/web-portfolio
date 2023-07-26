@@ -20,7 +20,8 @@
   background-color: $main-color;
   background-image: url("/images/dotsBackgroundFull.png");
   background-size: cover;
-  width: 300vw;
+  width: 85vw;
+  position: fixed;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
