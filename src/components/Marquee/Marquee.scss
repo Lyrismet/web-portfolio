@@ -36,7 +36,7 @@
     overflow: hidden;
     white-space: nowrap;
     .marquee__front-text{
-      color: white;
+      color: #d72956;
       -webkit-text-stroke: 1px $accent-color;
       -webkit-background-clip: text;
     }
@@ -77,9 +77,14 @@
     display: none;
   }
 }
-@media not all and (min-resolution:.001dpcm) {
-  /* Safari-specific */
-  .safari-hide {
+@media only screen and (user-agent: iPad) {
+  .your-element-class {
     display: none;
   }
 }
+/*@media not all and (min-resolution:.001dpcm) {
+  !* Safari-specific *!
+  .safari-hide {
+    display: none;
+  }
+}*/
