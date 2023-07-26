@@ -77,10 +77,23 @@
     display: none;
   }
 }
-@media only screen and (orientation: landscape) and (max-width: 980px) {
-  .marquee__back-text {
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .marquee{
+    .marquee-mobile{
+      display: block;
+    }
+  }
+  marquee{
     display: none;
   }
+
 }
 @media not all and (min-resolution:.001dpcm) {
   /*!* Safari-specific *!*/
