@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{3113:function(e,t,r){Promise.resolve().then(r.bind(r,3451))},3451:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return s}});var n=r(7437),o=r(8358),i=r.n(o);function s(){return(0,n.jsxs)("main",{className:i().main,children:[(0,n.jsx)("p",{children:"Due to the transition to Vercel, the deployment of the application on Github Pages has been stopped."}),(0,n.jsx)("div",{children:"Follow the link below to view this project:"}),(0,n.jsx)("a",{href:"https://lyrismet-portfolio.vercel.app/",children:"https://lyrismet-portfolio.vercel.app/"})]})}},8358:function(e){e.exports={main:"page_main__akH3E"}},622:function(e,t,r){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=r(2265),o=Symbol.for("react.element"),i=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),s=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,l={key:!0,ref:!0,__self:!0,__source:!0};function c(e,t,r){var n,c={},a=null,f=null;for(n in void 0!==r&&(a=""+r),void 0!==t.key&&(a=""+t.key),void 0!==t.ref&&(f=t.ref),t)i.call(t,n)&&!l.hasOwnProperty(n)&&(c[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===c[n]&&(c[n]=t[n]);return{$$typeof:o,type:e,key:a,ref:f,props:c,_owner:s.current}}t.jsx=c,t.jsxs=c},7437:function(e,t,r){"use strict";e.exports=r(622)}},function(e){e.O(0,[971,596,744],function(){return e(e.s=3113)}),_N_E=e.O()}]);
