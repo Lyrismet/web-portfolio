@@ -17,5 +17,8 @@
     "react-scroll": "^1.8.9",
     "sass": "^1.63.4",
     "scrollbooster": "^3.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
