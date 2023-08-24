@@ -26,7 +26,12 @@
   white-space: nowrap;
   height: 71.73vh;
   margin-left: calc(2.85vw + 33px);
-
+  @-moz-document url-prefix() {
+    & {
+      scrollbar-color: rgba(255, 0, 101, 0.68) rgba(172, 127, 235, 0.9);
+      scrollbar-width: thin;
+    }
+  }
   &::-webkit-scrollbar {
     height: 10px;
   }
