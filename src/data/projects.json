@@ -1,10 +1,35 @@
 [
   {
+    "image": "/images/image6.png",
+    "title": "Post Finance",
+    "description": "Website of software dev",
+    "link": "https://post-finance.ru/",
+    "story": "It is a project made on Svelte, where there is also a feedback form that sends data to corporate email. A security captcha is present. A unique handler for the form was developed in it.",
+    "badges": [
+      {
+        "text": "sveltekit",
+        "color": "#FF3E00"
+      },
+      {
+        "text": "vite",
+        "color": "#9766FD"
+      },
+      {
+        "text": "js",
+        "color": "#efd81d"
+      },
+      {
+        "text": "nodemailer",
+        "color": "#22B573"
+      }
+    ]
+  },
+  {
     "image": "/images/image0.png",
     "title": "Web portfolio",
     "description": "My portfolio website",
-    "link": "https://github.com/Lyrismet/lyrismet.github.io",
-    "story": "This is my challenging yet enjoyable personal portfolio project, featuring a custom design. I plan to enhance it further with additional features in the future.",
+    "link": "https://web-portfolio-lyrismet.vercel.app/",
+    "story": "This is my unusual yet enjoyable personal portfolio project, featuring a custom design. I plan to enhance it further with additional features in the future.",
     "badges": [
       {
         "text": "next",
@@ -57,7 +82,7 @@
     "image": "/images/image2.png",
     "title": "Soft Spot",
     "description": "Multi-tool web app",
-    "link": "https://github.com/Lyrismet/soft-spot-multitool",
+    "link": "https://lyrismet.github.io/soft-spot-multitool/",
     "story": "This is a web application of several important tools: calculator, weather, joke generator and task list.",
     "badges": [
       {
@@ -82,7 +107,7 @@
     "image": "/images/image3.png",
     "title": "Burgers",
     "description": "Fast-food delivery app",
-    "link": "https://github.com/Lyrismet/burgers-angular",
+    "link": "https://lyrismet.github.io/burgers-angular/",
     "story": "This fast food delivery application loads item data through a REST API, interacts with the database, and registers orders by sending data to the server.",
     "badges": [
       {
@@ -103,7 +128,7 @@
     "image": "/images/image4.png",
     "title": "Shoppers Hub",
     "description": "Admin dashboard",
-    "link": "https://github.com/Lyrismet/admin-dashboard-multicomponents",
+    "link": "https://lyrismet.github.io/admin-dashboard-multicomponents/",
     "story": "An admin panel with many tools, with the ability to change the theme, using the library syncfusion ej2.",
     "badges": [
       {
@@ -124,12 +149,12 @@
     "image": "/images/image5.png",
     "title": "Bliss Restaurant",
     "description": "Multi-page website",
-    "link": "https://github.com/Lyrismet/layout-italian-rest",
+    "link": "https://lyrismet.github.io/layout-italian-rest/",
     "story": "My earliest project, on which I did a code-review and corrected it according to current trends.",
     "badges": [
       {
         "text": "HTML",
-        "color": "#dd4b25"
+        "color": "#D16E55"
       },
       {
         "text": "css",
