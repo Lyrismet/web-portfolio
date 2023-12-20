@@ -62,7 +62,7 @@ const Project = ({ image, title, description, link, story, badges }) => {
                 <div className={styles.wrapperDesc}>
                     <p className={styles.description}>{description}</p>
                     <a className={styles.link} href={link} target="_blank">
-                        🔗<span>Link to GitHub</span>
+                        🔗<span>Link to view</span>
                     </a>
                     <div className={styles.badges}>
                         {badges.map((badge, index) => (
