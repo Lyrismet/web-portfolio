@@ -1,5 +1,6 @@
 @import '../src/app/_globals.scss';
-.marquee{
+
+.marquee {
   background: #1F2130;
   width: 97.15vw;
   height: 7.95vh;
@@ -9,15 +10,18 @@
   margin-top: 86.96vh;
   display: flex;
   align-items: center;
+
   marquee {
     margin: 0 9px;
     width: 32vw;
   }
-  .marquee__front-text{
+
+  .marquee__front-text {
     position: relative;
     z-index: 2;
   }
-  .marquee__back-text{
+
+  .marquee__back-text {
     position: absolute;
     top: -2px;
     left: -3px;
@@ -27,76 +31,85 @@
     -webkit-background-clip: text;
     background-clip: text;
   }
-  .stroke-blue{
-    -webkit-text-stroke:1px #4FBDFB;
+
+  .stroke-blue {
+    -webkit-text-stroke: 1px #4FBDFB;
   }
-  .marquee-mobile{
+
+  .marquee-mobile {
     display: none;
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    .marquee__front-text{
+
+    .marquee__front-text {
       color: #d72956;
       -webkit-text-stroke: 1px $accent-color;
       -webkit-background-clip: text;
     }
+
     p {
-    display: inline-block;
-    animation: marqueeAnimation 18s linear infinite;
-  }
+      display: inline-block;
+      animation: marqueeAnimation 18s linear infinite;
+    }
+
     @keyframes marqueeAnimation {
-     from {
-       transform: translateX(25%);
-     }
-     to {
-       transform: translateX(-100%);
-     }
-   }
+      from {
+        transform: translateX(25%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
   }
-  p{
+
+  p {
     margin-left: 5px;
     font-weight: 450;
     font-size: 22px;
     line-height: 29px;
     text-transform: uppercase;
     color: white;
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
       font-size: 16px;
     }
   }
 
 }
-@media (max-width: 768px){
-  .marquee{
+
+@media (max-width: 768px) {
+  .marquee {
     margin-top: 82.5vh;
-    .marquee-mobile{
+
+    .marquee-mobile {
       display: block;
     }
   }
-  marquee{
+  marquee {
     display: none;
   }
 }
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 1),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
 
-  .marquee{
-    .marquee-mobile{
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 1),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+  .marquee {
+    .marquee-mobile {
       display: block;
     }
   }
-  marquee{
+  marquee {
     display: none;
   }
 
 }
-@media not all and (min-resolution:.001dpcm) {
+
+@media not all and (min-resolution: .001dpcm) {
   /*!* Safari-specific *!*/
   .safari-hide {
     display: none;
