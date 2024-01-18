@@ -58,7 +58,7 @@
     "title": "Let's talk",
     "description": "Social messenger",
     "link": "https://lets-talk-messenger.vercel.app/",
-    "story": "It's a small social network, with the ability to create and edit a profile and communicate online.",
+    "story": "This is a community chat library for all developers to share or store information in a convenient way.",
     "badges": [
       {
         "text": "next",
