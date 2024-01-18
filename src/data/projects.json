@@ -57,7 +57,7 @@
     "image": "/images/image1.png",
     "title": "Let's talk",
     "description": "Social messenger",
-    "link": "https://github.com/Lyrismet/lets-talk-messenger",
+    "link": "https://lets-talk-messenger.vercel.app/",
     "story": "It's a small social network, with the ability to create and edit a profile and communicate online.",
     "badges": [
       {
