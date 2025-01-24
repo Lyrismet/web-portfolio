@@ -6,7 +6,6 @@ import Welcome from "@/components/Welcome/Welcome";
 import About from "@/components/About/About";
 import AllProjects from "@/components/Projects/allProjects";
 import MoveToSection from "@/components/MoveToSection/MoveToSection";
-import Contacts from "@/components/Contacts/Contacts";
 
 export default function Home() {
     const mainCanvasRef = useRef(null);
@@ -43,9 +42,6 @@ export default function Home() {
                     <Element style={{display: "flex"}} name="projects" className="element">
                         <MoveToSection text="Works"/>
                         <AllProjects />
-                    </Element>
-                    <Element style={{display: "flex"}} name="contacts" className="element">
-                        <Contacts />
                     </Element>
                 </div>
             </div>
